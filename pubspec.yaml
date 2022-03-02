@@ -1,0 +1,115 @@
+name: mental_health
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  agora_rtc_engine:
+  better_player:
+  mailto: ^2.0.0
+
+  cached_network_image:
+  countdown_timer_simple:
+  country_code_picker:
+  date_format:
+  dio:
+  file_picker:
+  firebase_crashlytics:
+  flutter_callkeep:
+  fluttertoast:
+  get:
+  google_fonts:
+  http:
+  image_picker:
+  intl:
+  just_audio: ^0.6.15+1
+  keyboard_actions:
+  nb_utils:
+  otp_text_field:
+  permission_handler:
+  razorpay_flutter:
+  shared_preferences:
+  syncfusion_flutter_datepicker:
+  url_launcher:
+  webview_flutter:
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/bg/
+    - assets/icons/
+    - assets/logo/Group.png
+    - assets/icons/info.png
+    - assets/icons/next icon.png
+    - assets/icons/user.png
+    - assets/icons/user bg.png
+    - assets/icons/circle bg.png
+    - assets/icons/blue circle bg.png
+    - assets/icons/done.png
+    - assets/icons/call.png
+    - assets/icons/Ellipse 3.png
+    - assets/icons/video call.png
+    - assets/icons/nav home.png
+    - assets/icons/nav booking.png
+    - assets/icons/nav cafe.png
+    - assets/icons/nav explore.png
+    - assets/bg/Frame.png
+    - assets/bg/profile.png
+    - assets/icons/availability.png
+    - assets/icons/content.png
+    - assets/icons/assessments.png
+    - assets/icons/payment.png
+    - assets/icons/help.png
+    - assets/icons/about.png
+    - assets/icons/settings.png
+    - assets/bg/my profile bg.png
+    - assets/bg/circle.png
+    - assets/icons/star.png
+    - assets/bg/gridCard1.png
+    - assets/bg/gridCard2.png
+    - assets/bg/gridCard3.png
+    - assets/bg/gridCard4.png
+    - assets/icons/delete.png
+    - assets/icons/paymentIconAppBar.png
+    - assets/icons/paymentAccount.png
+    - assets/icons/minus.png
+    - assets/bg/minusBg.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 900
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
