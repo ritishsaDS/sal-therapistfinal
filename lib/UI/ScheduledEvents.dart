@@ -321,10 +321,7 @@ class _ScheduledEventsState extends State<ScheduledEvents> {
                               child:MaterialButton(
                                 elevation: 0,
                                 onPressed: () async {
-                                  var startTime = DateTime(2021, 12, 10, 11, 30); // TODO: change this to your DateTime from firebase
-                                  var currentTime = DateTime.now();
-                                  var diff = startTime.difference(currentTime).inMinutes;
-                                  print(diff);
+
                                   if(buttonText=="Join"){
                                     await Navigator.push(
                                       context,
@@ -335,6 +332,7 @@ class _ScheduledEventsState extends State<ScheduledEvents> {
                                           channelName: Eventslist[index]['order_id'],
                                           name:"VideoCall",
                                           role: ClientRole.Broadcaster,
+                                            dif:startTime.difference(currentTime).inSeconds
                                         ),
                                       ),
                                     );
